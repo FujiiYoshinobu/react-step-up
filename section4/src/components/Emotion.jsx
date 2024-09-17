@@ -1,5 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
+
 import { jsx, css } from "@emotion/react";
 import styled from "@emotion/styled";
 
@@ -17,6 +18,11 @@ export const Emotion = () => {
         margin: 0,
         color: "white",
     });
+
+    const SButton = styled.button`
+        background-color: white;
+    `;
+
     return (
         <div css={containerStyle}>
             <p css={titleStyle}>- Emotion -</p>
