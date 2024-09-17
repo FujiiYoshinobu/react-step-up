@@ -16,7 +16,6 @@ const users = [...Array(10).keys()].map((val) => {
         website: "https://",
     };
 });
-console.log(users);
 
 export const Users = () => {
     return (

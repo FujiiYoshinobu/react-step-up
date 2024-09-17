@@ -5,12 +5,13 @@ import { UserCard } from "./components/organisms/user/UserCard";
 import "./App.css";
 import { DefaultLayout } from "./components/templates/DefaultLayout";
 import { Router } from "./components/router/Router";
+import { UserProvider } from "./providers/UserProvider";
 
 function App() {
     return (
-        <>
+        <UserProvider>
             <Router />
-        </>
+        </UserProvider>
     );
 }
 
